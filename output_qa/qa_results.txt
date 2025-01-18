@@ -1,0 +1,48 @@
+Question: Tell me about frequency cycles
+==================================================
+
+Answer:
+Using the following context, provide a clear and concise answer to the question. Focus only on information present in the context.
+
+Context: • Data cache and instruction cache: if the code or data are not in the cache, the cycle count
+is much larger.
+• Context switches: if they occur during measurement, the result will be biased.
+• Frequency changes: results are not accurate if there are frequency changes during measure-
+ment.
+• Multi-core processors: the cycle counters on the cores are not synchronized. If the process
+migrates during measurement, the result will be wrong.
+#second = #cycles
+frequency
+This method for performance monitoring is very useful for measuring the cycle count for small
+sections of code. For example when trying to compare the performance of sections of code that have
+the same result but use different instructions. Another case in which this method can be of use is to
+obtain the average execution time for a function or section of code.
+3 How to use RDTSC instruction
+
+Question: Tell me about frequency cycles
+
+Answer: The number of times an operation has been performed by one processor (or thread) at once with no interruptions from other threads within it's lifetime as well. This means you should know how many interrupts each CPU receives per second while performing any operations suchas reading/writing files etc.. It also helps us understand what happens after every single call made using these methods so we don't need multiple calls going through all CPUs simultaneously! Also remember - sometimes even more than 1CPU may take longer depending upon your system configuration! So please do try out some simple routines like "read_file", where read() takes care over write(). You'll see why I'm talking here :)
+
+ The first thing i want people interested into understanding before starting their own research project would be knowing exactly who does those things :). In order make sure everyone knows something important because then someone else might find them interesting too ;) __________________ Last edited By Deregul; 07th May 2014 @ 0800 PM..
+
+==================================================
+
+Source Documents:
+
+Source 1:
+• Data cache and instruction cache: if the code or data are not in the cache,
+the cycle count is much larger. • Context switches: if they occur during
+measurement, the result will be biased. • Frequency changes: results are not
+accurate if there are frequency changes during measure- ment. • Multi-core
+processors: the cycle counters on the cores are not synchronized. If the process
+migrates during measurement, the result will be wrong.
+------------------------------
+
+Source 2:
+#second = #cycles frequency This method for performance monitoring is very
+useful for measuring the cycle count for small sections of code. For example
+when trying to compare the performance of sections of code that have the same
+result but use different instructions. Another case in which this method can be
+of use is to obtain the average execution time for a function or section of
+code. 3 How to use RDTSC instruction
+------------------------------

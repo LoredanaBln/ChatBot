@@ -1,0 +1,24 @@
+User: Tell be about frequency changes
+Assistant: Using the following context, provide a clear and concise answer to the question. Focus only on information present in the context.
+
+Context: • Data cache and instruction cache: if the code or data are not in the cache, the cycle count
+is much larger.
+• Context switches: if they occur during measurement, the result will be biased.
+• Frequency changes: results are not accurate if there are frequency changes during measure-
+ment.
+• Multi-core processors: the cycle counters on the cores are not synchronized. If the process
+migrates during measurement, the result will be wrong.
+
+If the processors support technologies that make possible to change the frequency while functioning
+(for power management), the execution time measurement is affected. The solution for this problem
+is to prevent frequency changes through the settings in the operating system. If the measurement is
+made in clock cycles, not in seconds, the measurement will be independent of the processor frequency.
+4 Exercises
+1. Using the RDTSC instruction, measure the average execution time of the CPUID in-
+
+Question: Tell be about frequency changes
+
+Answer: This can help you understand how many times each core has been used by an application (e., memory) at one point; it also helps you determine what happens when all CPUs have changed their clocks twice per second over several years as well!
+
+
+--------------------------------------------------
